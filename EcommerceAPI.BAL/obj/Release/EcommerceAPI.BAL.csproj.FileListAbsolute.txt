@@ -1,0 +1,14 @@
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\bin\Release\EcommerceAPI.BAL.dll
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\bin\Release\EcommerceAPI.BAL.pdb
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\bin\Release\EcommerceAPI.DAL.dll
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\bin\Release\EcommerceAPI.Framework.dll
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\bin\Release\EntityFramework.dll
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\bin\Release\EcommerceAPI.DAL.pdb
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\bin\Release\EcommerceAPI.DAL.dll.config
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\bin\Release\EcommerceAPI.Framework.pdb
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\bin\Release\EntityFramework.xml
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\obj\Release\EcommerceAPI.BAL.csprojAssemblyReference.cache
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\obj\Release\EcommerceAPI.BAL.csproj.CoreCompileInputs.cache
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\obj\Release\EcommerceAPI.BAL.csproj.CopyComplete
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\obj\Release\EcommerceAPI.BAL.dll
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.BAL\obj\Release\EcommerceAPI.BAL.pdb

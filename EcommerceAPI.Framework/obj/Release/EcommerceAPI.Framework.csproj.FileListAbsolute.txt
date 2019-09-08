@@ -1,0 +1,6 @@
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.Framework\bin\Release\EcommerceAPI.Framework.dll
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.Framework\bin\Release\EcommerceAPI.Framework.pdb
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.Framework\obj\Release\EcommerceAPI.Framework.csprojAssemblyReference.cache
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.Framework\obj\Release\EcommerceAPI.Framework.csproj.CoreCompileInputs.cache
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.Framework\obj\Release\EcommerceAPI.Framework.dll
+E:\SVS\Ecommerce17thaugust\EcommerceAPI\EcommerceAPI.Framework\obj\Release\EcommerceAPI.Framework.pdb

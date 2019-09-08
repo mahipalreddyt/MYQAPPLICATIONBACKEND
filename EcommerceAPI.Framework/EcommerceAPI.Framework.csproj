@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C353A121-5178-4B9E-A92A-284B01325AE6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EcommerceAPI.Framework</RootNamespace>
+    <AssemblyName>EcommerceAPI.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DTO\Entity\Address.cs" />
+    <Compile Include="DTO\Entity\Category.cs" />
+    <Compile Include="DTO\Class1.cs" />
+    <Compile Include="DTO\ApiResponse.cs" />
+    <Compile Include="DTO\Entity\AddTypeMaster.cs" />
+    <Compile Include="DTO\Entity\CityMaster.cs" />
+    <Compile Include="DTO\Entity\CountryMaster.cs" />
+    <Compile Include="DTO\Entity\Customer.cs" />
+    <Compile Include="DTO\Entity\CustomerAddresses.cs" />
+    <Compile Include="DTO\Entity\CustomerPassword.cs" />
+    <Compile Include="DTO\Entity\OpeningDays.cs" />
+    <Compile Include="DTO\Entity\ServiceAdMaster.cs" />
+    <Compile Include="DTO\Entity\ServiceImages.cs" />
+    <Compile Include="DTO\Entity\ServiceReviews.cs" />
+    <Compile Include="DTO\Entity\ServiceSecificationsPosted.cs" />
+    <Compile Include="DTO\Entity\ServiceSpecifications.cs" />
+    <Compile Include="DTO\Entity\ServiceSubCategory.cs" />
+    <Compile Include="DTO\Entity\StateMaster.cs" />
+    <Compile Include="DTO\LogExceptionRequest.cs" />
+    <Compile Include="DTO\RequestObjects\CountryListRequest.cs" />
+    <Compile Include="DTO\RequestObjects\CustomerSaveRequest.cs" />
+    <Compile Include="DTO\RequestObjects\LoginRequest.cs" />
+    <Compile Include="DTO\RequestObjects\ServiceImagesRequest.cs" />
+    <Compile Include="DTO\RequestObjects\SubCategoryListRequest.cs" />
+    <Compile Include="DTO\ResponseObjects\USPAddTypesReponse.cs" />
+    <Compile Include="DTO\ResponseObjects\USPCitiesListResponse.cs" />
+    <Compile Include="DTO\ResponseObjects\USPGetCountriesListResponse.cs" />
+    <Compile Include="DTO\RequestObjects\YPServicePostRequest.cs" />
+    <Compile Include="DTO\ResponseObjects\CategoryDropHomeResponse.cs" />
+    <Compile Include="DTO\ResponseObjects\LoginResponse.cs" />
+    <Compile Include="DTO\ResponseObjects\ProcessResponse.cs" />
+    <Compile Include="DTO\ResponseObjects\ServiceCategoriesResponse.cs" />
+    <Compile Include="DTO\Entity\ServiceCategory.cs" />
+    <Compile Include="DTO\ResponseObjects\USPGetOpeningDaysResponse.cs" />
+    <Compile Include="DTO\ResponseObjects\USPGetServiceSubCategoryResponse.cs" />
+    <Compile Include="DTO\ResponseObjects\USPGetStatesResponse.cs" />
+    <Compile Include="DTO\ResponseObjects\USPGetYPAdByIdResponse.cs" />
+    <Compile Include="DTO\ResponseObjects\USPGetYPAdsByCategoryResponse.cs" />
+    <Compile Include="DTO\ResponseObjects\USPGetYPAdsByCountryResponse.cs" />
+    <Compile Include="DTO\ResponseObjects\USPGetYPAdsBySubCategoryResponse.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\PredicateBuilder.cs" />
+    <Compile Include="Utilities\StoredProceduresList.cs" />
+    <Compile Include="Utilities\Transform.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
